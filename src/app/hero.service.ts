@@ -14,7 +14,7 @@ export class HeroService {
 
   getHeroes():Observable<Hero[]>{
 
-    this.messageService.add('HeroService: encontrado heroes');
+    this.messageService.add('HeroService: fetched heroes');
     return of(HEROES);
 
   }
